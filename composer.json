@@ -1,21 +1,21 @@
 {
-  "name": "dotswan/filament-grapesjs-v3",
+  "name": "JekHar/filament-grapesjs",
   "description": "",
   "keywords": [
-    "dotswan",
+    "JekHar",
     "laravel",
-    "filament-grapesjs-v3"
+    "filament-grapesjs"
   ],
-  "homepage": "https://github.com/dotswan/filament-grapesjs-v3",
+  "homepage": "https://github.com/JekHar/filament-grapesjs",
   "support": {
-    "issues": "https://github.com/dotswan/filament-grapesjs-v3/issues",
-    "source": "https://github.com/dotswan/filament-grapesjs-v3"
+    "issues": "https://github.com/JekHar/filament-grapesjs/issues",
+    "source": "https://github.com/JekHar/filament-grapesjs"
   },
   "license": "MIT",
   "authors": [
     {
-      "name": "Dotswan",
-      "email": "tech@dotswan.com",
+      "name": "JekHar",
+      "email": "agu.m.gg@gmail.com",
       "role": "Developer"
     }
   ],
@@ -39,13 +39,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Dotswan\\FilamentGrapesjs\\": "src/",
-      "Dotswan\\FilamentGrapesjs\\Database\\Factories\\": "database/factories/"
+      "JekHar\\FilamentGrapesjs\\": "src/",
+      "JekHar\\FilamentGrapesjs\\Database\\Factories\\": "database/factories/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Dotswan\\FilamentGrapesjs\\Tests\\": "tests/"
+      "JekHar\\FilamentGrapesjs\\Tests\\": "tests/"
     }
   },
   "scripts": {
@@ -65,10 +65,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Dotswan\\FilamentGrapesjs\\FilamentGrapesJsServiceProvider"
+        "JekHar\\FilamentGrapesjs\\FilamentGrapesJsServiceProvider"
       ],
       "aliases": {
-        "FilamentGrapesjs": "Dotswan\\FilamentGrapesjs\\Facades\\FilamentGrapesjs"
+        "FilamentGrapesjs": "JekHar\\FilamentGrapesjs\\Facades\\FilamentGrapesjs"
       }
     }
   },

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dotswan\FilamentGrapesjs;
+namespace JekHar\FilamentGrapesjs;
 
 use Filament\Support\Assets\Js;
 use Filament\Support\Assets\Css;
@@ -27,7 +27,7 @@ class FilamentGrapesJsServiceProvider extends PackageServiceProvider
             ->hasInstallCommand(function (InstallCommand $command): void {
                 $command
                     ->publishConfigFile()
-                    ->askToStarRepoOnGitHub('dotswan/filament-grapesjs-v3');
+                    ->askToStarRepoOnGitHub('JekHar/filament-grapesjs');
             });
 
         $configFileName = $package->shortName();
@@ -61,7 +61,7 @@ class FilamentGrapesJsServiceProvider extends PackageServiceProvider
 
     protected function getAssetPackageName(): ?string
     {
-        return 'dotswan/filament-grapesjs-v3';
+        return 'JekHar/filament-grapesjs';
     }
 
     /**

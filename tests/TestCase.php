@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dotswan\FilamentGrapesJs\Tests;
+namespace JekHar\FilamentGrapesJs\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
@@ -20,7 +20,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
-use Dotswan\FilamentGrapesJs\FilamentGrapesJsServiceProvider;
+use JekHar\FilamentGrapesJs\FilamentGrapesJsServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -29,7 +29,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Dotswan\\FilamentGrapesJs\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'JekHar\\FilamentGrapesJs\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

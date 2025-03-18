@@ -1,6 +1,6 @@
 <?php
 
-namespace Dotswan\FilamentGrapesjs\Fields\Concerns;
+namespace JekHar\FilamentGrapesjs\Fields\Concerns;
 
 use Closure;
 

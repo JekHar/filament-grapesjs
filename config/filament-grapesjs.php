@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-// config for Dotswan/FilamentGrapesjs
+// config for JekHar/FilamentGrapesjs
 return [
 
 ];

@@ -5,7 +5,7 @@
 [![Software License][ico-license]][link-license]
 
 
-![image](https://github.com/dotswan/filament-grapesjs-v3/assets/20874565/2ad36e55-4d56-42f6-8946-b894dab5d4fa)
+![image](https://github.com/JekHar/filament-grapesjs/assets/20874565/2ad36e55-4d56-42f6-8946-b894dab5d4fa)
 
 
 ## Introduction 
@@ -30,7 +30,7 @@ This package extends Filament to include a field type called Grapesjs, leveragin
 You can easily install the package via Composer:
 
 ```bash
-composer require dotswan/filament-grapesjs-v3
+composer require JekHar/filament-grapesjs
 ```
 
 ## Basic Usage
@@ -42,7 +42,7 @@ Resource file:
 namespace App\Filament\Resources;
 use Filament\Resources\Resource;
 use Filament\Resources\Forms\Form;
-use Dotswan\FilamentGrapesjs\Fields\GrapesJs;
+use JekHar\FilamentGrapesjs\Fields\GrapesJs;
 ...
 
 class FilamentResource extends Resource
@@ -61,11 +61,11 @@ class FilamentResource extends Resource
 
 ## License
 
-[MIT License](LICENSE.md) © Dotswan
+[MIT License](LICENSE.md) © JekHar
 
 ## Security
 
-We take security seriously. If you discover any bugs or security issues, please help us maintain a secure project by reporting them through our [`GitHub issue tracker`][link-github-issue]. You can also contact us directly at [tech@dotswan.com](mailto:tech@dotswan.com).
+We take security seriously. If you discover any bugs or security issues, please help us maintain a secure project by reporting them through our [`GitHub issue tracker`][link-github-issue]. You can also contact us directly at [tech@JekHar.com](mailto:tech@JekHar.com).
 
 ## Contribution
 
@@ -80,16 +80,16 @@ If you have a suggestion that would make this better, please fork the repo and c
 5. Open a Pull Request
 
 
-[ico-version]: https://img.shields.io/packagist/v/dotswan/filament-grapesjs-v3.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/JekHar/filament-grapesjs.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/dotswan/filament-grapesjs-v3.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/JekHar/filament-grapesjs.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/dotswan/filament-grapesjs-v3
-[link-license]: https://github.com/dotswan/filament-grapesjs-v3/blob/master/LICENSE.md
-[link-downloads]: https://packagist.org/packages/dotswan/filament-grapesjs-v3
-[link-readme]: https://github.com/dotswan/filament-grapesjs-v3/blob/master/README.md
-[link-github-issue]: https://github.com/dotswan/filament-grapesjs-v3/issues
-[link-composer-json]: https://github.com/dotswan/filament-grapesjs-v3/blob/master/composer.json
-[link-gitignore]: https://github.com/dotswan/filament-grapesjs-v3/blob/master/.gitignore
-[link-pint]: https://github.com/dotswan/filament-grapesjs-v3/blob/master/pint.json
-[link-author]: https://github.com/dotswan
+[link-packagist]: https://packagist.org/packages/JekHar/filament-grapesjs
+[link-license]: https://github.com/JekHar/filament-grapesjs/blob/master/LICENSE.md
+[link-downloads]: https://packagist.org/packages/JekHar/filament-grapesjs
+[link-readme]: https://github.com/JekHar/filament-grapesjs/blob/master/README.md
+[link-github-issue]: https://github.com/JekHar/filament-grapesjs/issues
+[link-composer-json]: https://github.com/JekHar/filament-grapesjs/blob/master/composer.json
+[link-gitignore]: https://github.com/JekHar/filament-grapesjs/blob/master/.gitignore
+[link-pint]: https://github.com/JekHar/filament-grapesjs/blob/master/pint.json
+[link-author]: https://github.com/JekHar
