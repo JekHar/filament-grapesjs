@@ -1,5 +1,7 @@
 import loadTailwindBlocks from './tailwind'
 import loadMediaBlocks from './html/media'
+import loadTrainingBlocks from './training'
+import loadQuoteBlocks from './quote'
 
 export default (editor, opts = {}, openBlock) => {
   loadTailwindBlocks(editor, opts, openBlock);
@@ -18,4 +20,11 @@ export default (editor, opts = {}, openBlock) => {
     labelIcon: 'Icon Element',
     labelMediaCaption: 'Media with Caption',
   });
+
+  loadTrainingBlocks(editor, {
+    ...opts,
+    openCategory: opts.openCategory
+  });
+
+  loadQuoteBlocks(editor, opts);
 }
